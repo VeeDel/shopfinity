@@ -1,0 +1,26 @@
+.footer {
+  border-top: 2px solid #c6c4c4;
+  text-align: center;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+img {
+  width: 3rem;
+}
+
+.description {
+  max-width: 700px;
+}
+
+.socialIcons {
+  /* Set the initial size of the icons */
+  transition: transform 0.2s ease-in-out;
+  margin-left: 0.5rem;
+}
+
+.socialIcons:hover {
+  /* Increase the size of the icons on hover */
+  transform: scale(1.2);
+}
